@@ -1,0 +1,3225 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <a1:ChipRun id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <SystemID id="ref-4">BIOMARKHD572</SystemID>
+      <UserName id="ref-5">Fluidigm</UserName>
+      <CCDCamera href="#ref-6" />
+      <ThermoCyclerID xsi:null="1" />
+      <StartTime>2022-09-23T03:07:10.8170115+08:00</StartTime>
+      <EndTime>2022-09-23T04:09:32.5220442+08:00</EndTime>
+      <runProtocol xsi:null="1" />
+      <PassiveReferenceDye href="#ref-7" />
+      <probeTypeArray href="#ref-8" />
+      <chipDefinition href="#ref-9" />
+      <iNumOfImageData>26</iNumOfImageData>
+      <ImageDataArrayList href="#ref-10" />
+      <sampleContainer xsi:null="1" />
+      <reagentContainer xsi:null="1" />
+      <ModelProtocol href="#ref-11" />
+      <ProtocolLog xsi:type="xsd:anyType" xsi:null="1" />
+      <AcqVersion id="ref-12">4.5.2</AcqVersion>
+      <AcqBuild id="ref-13">20180626.1909</AcqBuild>
+      <ApplicationType>GeneExpression</ApplicationType>
+      <m_bIsSampleContentModifiedForAnalysis>false</m_bIsSampleContentModifiedForAnalysis>
+      <m_bIsReagentContentModifiedForAnalysis>false</m_bIsReagentContentModifiedForAnalysis>
+      <m_bIsQualityCallContentModifiedForAnalysis>false</m_bIsQualityCallContentModifiedForAnalysis>
+      <customHeatMapLayout xsi:null="1" />
+      <secondaryAnalysisChipRun xsi:null="1" />
+      <schema>0</schema>
+      <parameters xsi:null="1" />
+      <Name id="ref-14">1691383040</Name>
+      <ReferenceID id="ref-15">&lt;SysConfig_XML&gt;
+	&lt;Info Company="Fluidigm Inc." Doc_Name="SysConfig.xml" Purpose="System Configuration parameters" Created_Date="04/27/2006" Created_By="Wen" File_Type="BioMark_SystemConfig" Version="1.0" SystemID="BIOMARKHD572" Comment="Updated by BioMarkICP v20140211.0231 for BIOMARKHD572 (SN 090572) on 2022-05-13 @ 01:16:40" Modified_Date="05/13/2022 @ 01:16:40" Modified_By="BioMarkICP.exe v20140211.0231"/&gt;
+	&lt;Simulation bSystemSimulationON="false" bIOCardSimulationON="false"/&gt;
+	&lt;SystemLogControl bLogToFile="true" bViewWindow="false"/&gt;
+	&lt;ErrorLogControl bLogToFile="true" bViewWindow="false"/&gt;
+	&lt;AutoFocus bAutoFocusON="true" bUseGridAlgorithm="true" bSaveToFile="true"/&gt;
+	&lt;AutoExposure bAutoExposureON="true" dMaximumExposureTime="50" dMinimumExposureTime="0.1"/&gt;
+	&lt;Instruments&gt;
+		&lt;Gripper bRevSense="false" bUsePosLim="false" dBacklash="0.0" dDefaultSpeed="180.0" dDistToClearLS="5000.0" dHomeFromEOT="0.0" dHomePosOffset="0.0" dHomeSpeedFast="100.0" dHomeSpeedSlow="25.0" dJogSpeed="0.5" dMaxSpeed="180.0" dNomHomePos="0.0" dPitch="360.0" dRange="210000.0" nAxisID="1" nFullStepsPerRev="400" nRamp="3" strName="Gripper Axis"&gt;
+			&lt;GripperPos iGripperSensePort="0" dHome="0.0" dGrippedPosition="10000.0" dReleasedPosition="200000.0"/&gt;
+		&lt;/Gripper&gt;
+		&lt;Transfer bRevSense="true" bUsePosLim="false" dBacklash="0.0" dDefaultSpeed="100.0" dDistToClearLS="8000.0" dHomeFromEOT="0.0" dHomePosOffset="0.0" dHomeSpeedFast="30.0" dHomeSpeedSlow="5.0" dJogSpeed="0.15" dMaxSpeed="100.0" dNomHomePos="0.0" dPitch="10.0" dRange="280000.0" nAxisID="2" nFullStepsPerRev="200" nRamp="3" strName="Transfer Axis"&gt;
+			&lt;TransferPos dHome="0.0" dEjectOffset="0.0" dEjectPosition="280000.0" dHandoffPosition="7000.0" dWaitPosT="90000.0" dHandoffOffset="-1999"/&gt;
+		&lt;/Transfer&gt;
+		&lt;ZStage bRevSense="True" bUsePosLim="false" dBacklash="0.0" dDefaultSpeed="5.0" dDistToClearLS="3000.0" dHomeFromEOT="2200.0" dHomePosOffset="0.0" dHomeSpeedFast="2.5" dHomeSpeedSlow="0.25" dJogSpeed="0.1" dMaxSpeed="5.0" dNomHomePos="2000.0" dPitch="2.0" dRange="25000.0" nAxisID="3" nFullStepsPerRev="200" nRamp="3" strName="Z Axis"&gt;
+			&lt;ZStagePos dHome="2000" Comment="dHome should be same as dNomHomePos" dPlateBasePositionDefault="16230" dDownPosition="1000.0" dVacuumOnOffset="500" dPlateBasePositionOffset="271" dFocusNominalPosition="23765" dFocusNominalPositionV2="23124" dFocusOffsetV2="204" dUpperLimit="23300"/&gt;
+		&lt;/ZStage&gt;
+		&lt;Light_Source Warm_Up_Time="1" LampType="ScorpioLED"/&gt;
+		&lt;ThermoCycler ManufactureName="Fluidigm" ModelName="FC1" dDefaultTemperature="20" dDefaultRampRate="2" dMaximumTemperature="99" dMinimumTemperature="4" dReadingTolerance="0.5" dReadingDelay="6" iTemperatureExpiredTime="100" SerialNo="70741"&gt;
+			&lt;TemperatureCalibration iNumberOfCalibrations="2" InterpolationMethod="Linear" ExtrapolationMethod="Linear"&gt;
+				&lt;Calibration1 dDesign="60.00" dActual="60.00"/&gt;
+				&lt;Calibration2 dDesign="95.00" dActual="95.00"/&gt;
+			&lt;/TemperatureCalibration&gt;
+		&lt;/ThermoCycler&gt;
+		&lt;Vacuum_Chuck Default_Psi="60"/&gt;
+		&lt;Emission_Filter iNumberOfPositions="5" dFilterHomeOffset="0.0" CrusingSpeed_iSlow="100" CrusingSpeed_iNormal="150" CrusingSpeed_iFast="200" sRampLUT="1" dGearRatio="0.35555556"&gt;
+			&lt;EM_Filter1 Name="645-75" Alias="ROX" Position="1" Wavelength="645" Bandwidth="75" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EM_Filter2 Name="570-30" Alias="VIC" Position="2" Wavelength="570" Bandwidth="30" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EM_Filter3 Name="525-25" Alias="FAM" Position="3" Wavelength="525" Bandwidth="25" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EM_Filter4 Name="Blank" Alias="Filter4" Position="4" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EM_Filter5 Name="700-30" Alias="	CY5" Position="5" Wavelength="700" Bandwidth="30" Attenuation="1" UserSelectable="True"/&gt;
+		&lt;/Emission_Filter&gt;
+		&lt;Emission_Shutter Delay="50"/&gt;
+		&lt;Excitation_Filter iNumberOfPositions="10" dFilterHomeOffset="0.0" CrusingSpeed_iSlow="15" CrusingSpeed_iNormal="20" CrusingSpeed_iFast="30" sRampLUT="1" dGearRatio="1.0"&gt;
+			&lt;EX_Filter1 Name="580-25" Alias="ROX" Position="1" IOCode="3" Wavelength="580" Bandwidth="25" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EX_Filter2 Name="530-20" Alias="VIC" Position="2" IOCode="1" Wavelength="530" Bandwidth="20" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EX_Filter3 Name="485-20" Alias="FAM" Position="3" IOCode="2" Wavelength="485" Bandwidth="20" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EX_Filter4 Name="632-27" Alias="CY5" Position="4" IOCode="0" Wavelength="632" Bandwidth="27" Attenuation="1" UserSelectable="True"/&gt;
+			&lt;EX_Filter5 Name="Blank" Alias="Filter5" Position="5" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EX_Filter6 Name="Blank" Alias="Filter6" Position="6" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EX_Filter7 Name="Blank" Alias="Filter7" Position="7" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EX_Filter8 Name="Blank" Alias="Filter8" Position="8" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EX_Filter9 Name="Blank" Alias="Filter9" Position="9" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+			&lt;EX_Filter10 Name="Blank" Alias="Filter10" Position="10" Wavelength="-1" Bandwidth="-1" Attenuation="1" UserSelectable="False"/&gt;
+		&lt;/Excitation_Filter&gt;
+		&lt;Excitation_Shutter Delay="50"/&gt;
+		&lt;Barcode_Reader SerialPortName="COM4" BaudRate="9600" DataBits="8" StopBits="1" Parity="None" Comment="Parity: None, Odd, Even, Mark, or Space"/&gt;
+	&lt;/Instruments&gt;
+	&lt;Camera ManufactureName="FingerLake" ModelName="PL9000" SerialNo="XXXXXXXX" CCDReadyTemerature="-5.0" CCDReadyTemeratureTolerance="0.5" ReadoutRotation="0" ReadoutXFlip="false" ReadoutYFlip="false" PixelResolutionX="12" PixelResolutionY="12" PixelResolutionUnit="um" ElementSizeInBytes="2" BitsPerColorPlane="16" ColorFormat="Format16bppGrayScale" Size_X="3056" Size_Y="3056" ActiveAreaPoint0_X="248" ActiveAreaPoint0_Y="248" ActiveAreaWidth="2560" ActiveAreaHeight="2560" ImageRotationRelatedToChipDefinition="270.0" NumberOfXAmplifier="1" NumberOfYAmplifier="1" DefectivePixels=""&gt;
+		&lt;AmplifierParams1 iAmplifierXIndex="0" iAmplifierYIndex="0" dOffset="250" dGain=".996"/&gt;
+		&lt;BadPixels NumOfBadPixels="0"&gt;
+			&lt;BadPixel1 X="0" Y="0"/&gt;
+		&lt;/BadPixels&gt;
+	&lt;/Camera&gt;
+	&lt;FocusWavelengthOffsets iNumberOfOffsets="4" InterpolationMethod="Linear" ExtrapolationMethod="NearestNeighbor"&gt;
+		&lt;Offset1 dWavelength="700" dOffset="-225"/&gt;
+		&lt;Offset2 dWavelength="645" dOffset="0"/&gt;
+		&lt;Offset3 dWavelength="570" dOffset="111"/&gt;
+		&lt;Offset4 dWavelength="525" dOffset="124"/&gt;
+	&lt;/FocusWavelengthOffsets&gt;
+	&lt;Monitor NumberOfInputs="7"&gt;
+		&lt;Input1 Type="Voltage" Name="24V" Min="23" Max="25" WarningMin="23" WarningMax="25" Scale="3.05" Offset="0" NIPath="/Dev1/ai13"/&gt;
+		&lt;Input2 Type="Voltage" Name="12V" Min="11.5" Max="12.5" WarningMin="11.6" WarningMax="12.4" Scale="3.11" Offset="0" NIPath="/Dev1/ai12"/&gt;
+		&lt;Input3 Type="Voltage" Name="5V" Min="4.5" Max="5.5" WarningMin="4.6" WarningMax="5.4" Scale="1" Offset="0" NIPath="/Dev1/ai8"/&gt;
+		&lt;Input4 Type="Vacuum" Name="Vacuum" Min="-5" Max="200" WarningMin="-5" WarningMax="200" Scale="-50.7142" Offset="152.7426" NIPath="/Dev1/ai0"/&gt;
+		&lt;Input5 Type="Temperature" Name="LTBTemperature" WarningMin="0" WarningMax="35" Min="-10" Max="40" Scale="10.1" Offset="0" NIPath="/Dev1/ai3"/&gt;
+		&lt;Input6 Type="Temperature" Name="BOBTemperature" WarningMin="0" WarningMax="35" Min="-10" Max="40" Scale="10.1" Offset="0" NIPath="/Dev1/ai4"/&gt;
+		&lt;Input7 Type="Temperature" Name="CameraEnvTemperature" WarningMin="0" WarningMax="35" Min="-10" Max="40" Scale="10.1" Offset="0" NIPath="/Dev1/ai11"/&gt;
+	&lt;/Monitor&gt;
+&lt;/SysConfig_XML&gt;
+</ReferenceID>
+      <Barcode id="ref-16">1691383040</Barcode>
+      <Description id="ref-17">
+      </Description>
+    </a1:ChipRun>
+    <a2:CameraBase id="ref-6" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_ManufactureName id="ref-19">FingerLake</m_ManufactureName>
+      <m_ModelName id="ref-20">PL9000</m_ModelName>
+      <m_SerialNo id="ref-21">XXXXXXXX</m_SerialNo>
+      <m_BadPixelsArray xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>248</x>
+        <y>248</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>3056</width>
+        <height>3056</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>1</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>1</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-22" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>248</x>
+        <y>248</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>3056</width>
+        <height>3056</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-22" />
+    </a2:CameraBase>
+    <a1:Dye id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <dEmissionWaveLength>605</dEmissionWaveLength>
+      <dExcitationWaveLength>580</dExcitationWaveLength>
+      <bCanBeUsedAsPassiveReference>true</bCanBeUsedAsPassiveReference>
+      <dPassiveReferenceDefaultExposureTime>0.3</dPassiveReferenceDefaultExposureTime>
+      <dTargetInitialUpperIntensity>60</dTargetInitialUpperIntensity>
+      <dTargetInitialDesiredIntensity>35</dTargetInitialDesiredIntensity>
+      <dTargetInitialLowerIntensity>20</dTargetInitialLowerIntensity>
+      <dEmissionFilterWaveLength>645</dEmissionFilterWaveLength>
+      <dEmissionFilterWaveBandwidth>75</dEmissionFilterWaveBandwidth>
+      <dExcitationFilterWaveLength>580</dExcitationFilterWaveLength>
+      <dExcitationFilterWaveBandwidth>25</dExcitationFilterWaveBandwidth>
+      <d60To20ExposureRatio>1</d60To20ExposureRatio>
+      <Name id="ref-23">ROX</Name>
+      <ReferenceID href="#ref-17" />
+      <Barcode href="#ref-17" />
+      <Description href="#ref-17" />
+    </a1:Dye>
+    <SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="a1:ProbeType[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item href="#ref-24" />
+    </SOAP-ENC:Array>
+    <a1:ChipDefinition id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <HeaderInfo href="#ref-25" />
+      <Family id="ref-26">DynamicArray_Matrix</Family>
+      <Type id="ref-27">192.24 (169x)</Type>
+      <Version id="ref-28">v1.0</Version>
+      <ManufactureID id="ref-29">169</ManufactureID>
+      <GUID id="ref-30">B19A9A87-D83E-4B42-8A2D-BA1F1D5B46E7</GUID>
+      <ApplicationTypes>19</ApplicationTypes>
+      <Sample_Reagent_MixMethod>PostMixing</Sample_Reagent_MixMethod>
+      <AcquisitionSettings href="#ref-31" />
+      <AnalysisSettings href="#ref-32" />
+      <sampleContainer href="#ref-33" />
+      <reagentContainer href="#ref-34" />
+      <CamberInformation href="#ref-35" />
+      <SampleReagentWellLayoutID id="ref-36">192x24_WELL_LAYOUT_V1</SampleReagentWellLayoutID>
+      <Name xsi:null="1" />
+      <ReferenceID xsi:null="1" />
+      <Barcode xsi:null="1" />
+      <Description id="ref-37">Dynamic Array 192x24v1 Chip</Description>
+    </a1:ChipDefinition>
+    <a4:ArrayList id="ref-10" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+      <_items href="#ref-38" />
+      <_size>26</_size>
+      <_version>26</_version>
+    </a4:ArrayList>
+    <a5:ProtocolModelTemplate id="ref-11" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strFilePath id="ref-39">C:\Users\Fluidigm\Desktop\Fluidigm scripts\20200715_JW_1h_TechDev_v1.pcl</strFilePath>
+      <strName id="ref-40">TechDev_1h_5min</strName>
+      <protocolType>PCR</protocolType>
+      <protocolRampRateType id="ref-41">Normal 2C/s</protocolRampRateType>
+      <strDescription href="#ref-17" />
+      <bConstrainedModel>true</bConstrainedModel>
+      <bNeedCompensation>true</bNeedCompensation>
+      <arSegments href="#ref-42" />
+      <arRampRates href="#ref-43" />
+    </a5:ProtocolModelTemplate>
+    <SOAP-ENC:Array id="ref-22" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <a1:ProbeType id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <quencher href="#ref-44" />
+      <ReporterDye href="#ref-45" />
+      <dDefaultExposureTime>2</dDefaultExposureTime>
+      <dTargetInitialUpperIntensity>25</dTargetInitialUpperIntensity>
+      <dTargetInitialDesiredIntensity>15</dTargetInitialDesiredIntensity>
+      <dTargetInitialLowerIntensity>5</dTargetInitialLowerIntensity>
+      <Name id="ref-46">SNPtype-FAM</Name>
+      <ReferenceID href="#ref-17" />
+      <Barcode href="#ref-17" />
+      <Description id="ref-47">FAM and other</Description>
+    </a1:ProbeType>
+    <a6:FluidigmXmlHeaderInfo id="ref-25" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.Common/Utilities%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <SystemID xsi:null="1" />
+      <Company id="ref-48">Fluidigm Corporation</Company>
+      <Doc_Name id="ref-49">192x24v1ChipDefinition.xml</Doc_Name>
+      <Purpose id="ref-50">Chip Definition for 192x24 Chip</Purpose>
+      <Created_Date id="ref-51">07/23/2010</Created_Date>
+      <Created_By id="ref-52">Gang</Created_By>
+      <Modified_Date id="ref-53">07/23/2010</Modified_Date>
+      <Modified_by id="ref-54">Gang</Modified_by>
+      <File_Type id="ref-55">DynamicArray_ChipDefinition</File_Type>
+      <Version id="ref-56">1.0</Version>
+      <Comment xsi:null="1" />
+    </a6:FluidigmXmlHeaderInfo>
+    <a1:ChipDefinition_x002B__AcquisitionSettings id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <FocusOffset>-2254</FocusOffset>
+      <dContactOffset>1770</dContactOffset>
+      <CoarseFocusRange>800</CoarseFocusRange>
+      <CoarseFocusStepping>100</CoarseFocusStepping>
+      <FineFocusRange>300</FineFocusRange>
+      <FineFocusStepping>20</FineFocusStepping>
+      <bUseVacuum>true</bUseVacuum>
+      <dDefaultTemperature>20</dDefaultTemperature>
+      <dFocusWavelengthOffsetScaling>1</dFocusWavelengthOffsetScaling>
+    </a1:ChipDefinition_x002B__AcquisitionSettings>
+    <a1:ChipDefinition_x002B__AnalysisSettings2 id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <iGridFindingSensitivity>65</iGridFindingSensitivity>
+      <dBackgroundBoxSizeX>40</dBackgroundBoxSizeX>
+      <dBackgroundBoxSizeY>40</dBackgroundBoxSizeY>
+      <dChamberlOuterBorderInPixel>0.5</dChamberlOuterBorderInPixel>
+      <dChamberInnerBorderInPixel>0.5</dChamberInnerBorderInPixel>
+    </a1:ChipDefinition_x002B__AnalysisSettings2>
+    <a1:SampleContainer id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <SampleArray xsi:null="1" />
+      <ToChipContainerMapping xsi:null="1" />
+      <SampleMap xsi:type="xsd:anyType" xsi:null="1" />
+      <ContainerType>FICC</ContainerType>
+      <ContainerFormat>SBS384Mod</ContainerFormat>
+      <iNumberOfUsedWells>0</iNumberOfUsedWells>
+      <iNumberOfColumns>12</iNumberOfColumns>
+      <iNumberOfWells>192</iNumberOfWells>
+      <FirstInletLocation id="ref-57">Primary::A1,A2,A3,A4,A5,A6,A19,A20,A21,A22,A23,A24,B1,B2,B3,B4,B5,B6,B19,B20,B21,B22,B23,B24,C1,C2,C3,C4,C5,C6,C19,C20,C21,C22,C23,C24,D1,D2,D3,D4,D5,D6,D19,D20,D21,D22,D23,D24,E1,E2,E3,E4,E5,E6,E19,E20,E21,E22,E23,E24,F1,F2,F3,F4,F5,F6,F19,F20,F21,F22,F23,F24,G1,G2,G3,G4,G5,G6,G19,G20,G21,G22,G23,G24,H1,H2,H3,H4,H5,H6,H19,H20,H21,H22,H23,H24,I1,I2,I3,I4,I5,I6,I19,I20,I21,I22,I23,I24,J1,J2,J3,J4,J5,J6,J19,J20,J21,J22,J23,J24,K1,K2,K3,K4,K5,K6,K19,K20,K21,K22,K23,K24,L1,L2,L3,L4,L5,L6,L19,L20,L21,L22,L23,L24,M1,M2,M3,M4,M5,M6,M19,M20,M21,M22,M23,M24,N1,N2,N3,N4,N5,N6,N19,N20,N21,N22,N23,N24,O1,O2,O3,O4,O5,O6,O19,O20,O21,O22,O23,O24,P1,P2,P3,P4,P5,P6,P19,P20,P21,P22,P23,P24</FirstInletLocation>
+      <IndexedMethod>RowByRow</IndexedMethod>
+      <WellContent xsi:null="1" />
+      <ContainerTypeName xsi:null="1" />
+      <Name xsi:null="1" />
+      <ReferenceID xsi:null="1" />
+      <Barcode xsi:null="1" />
+      <Description xsi:null="1" />
+    </a1:SampleContainer>
+    <a1:ReagentContainer id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <ReagentMixArray xsi:null="1" />
+      <ToChipContainerMapping xsi:null="1" />
+      <ReagentMixMap xsi:type="xsd:anyType" xsi:null="1" />
+      <parameters xsi:null="1" />
+      <ContainerType>FICC</ContainerType>
+      <ContainerFormat>SBS384Mod</ContainerFormat>
+      <iNumberOfUsedWells>0</iNumberOfUsedWells>
+      <iNumberOfColumns>3</iNumberOfColumns>
+      <iNumberOfWells>24</iNumberOfWells>
+      <FirstInletLocation id="ref-58">Primary::A0,A25,B0,C0,C25,D0,E0,E25,F0,G0,G25,H0,I0,I25,J0,K0,K25,L0,M0,M25,N0,O0,O25,P0</FirstInletLocation>
+      <IndexedMethod>RowByRow</IndexedMethod>
+      <WellContent xsi:null="1" />
+      <ContainerTypeName xsi:null="1" />
+      <Name xsi:null="1" />
+      <ReferenceID xsi:null="1" />
+      <Barcode xsi:null="1" />
+      <Description xsi:null="1" />
+    </a1:ReagentContainer>
+    <a1:ChipDefinition_x002B_ChamberInfo id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <NumOfBlocks>
+        <X>2</X>
+        <Y>1</Y>
+      </NumOfBlocks>
+      <Inter_Block_Spacing>
+        <dX>15920</dX>
+        <dY>0</dY>
+      </Inter_Block_Spacing>
+      <NumOfChambersPerBlock>
+        <X>24</X>
+        <Y>96</Y>
+      </NumOfChambersPerBlock>
+      <Intra_Block_ChamberSpacing>
+        <dX>580</dX>
+        <dY>300</dY>
+      </Intra_Block_ChamberSpacing>
+      <ChamberSize>
+        <dX>310</dX>
+        <dY>85</dY>
+      </ChamberSize>
+      <BlockInfoArray href="#ref-59" />
+    </a1:ChipDefinition_x002B_ChamberInfo>
+    <SOAP-ENC:Array id="ref-38" SOAP-ENC:arrayType="xsd:anyType[32]">
+      <item href="#ref-60" />
+      <item href="#ref-61" />
+      <item href="#ref-62" />
+      <item href="#ref-63" />
+      <item href="#ref-64" />
+      <item href="#ref-65" />
+      <item href="#ref-66" />
+      <item href="#ref-67" />
+      <item href="#ref-68" />
+      <item href="#ref-69" />
+      <item href="#ref-70" />
+      <item href="#ref-71" />
+      <item href="#ref-72" />
+      <item href="#ref-73" />
+      <item href="#ref-74" />
+      <item href="#ref-75" />
+      <item href="#ref-76" />
+      <item href="#ref-77" />
+      <item href="#ref-78" />
+      <item href="#ref-79" />
+      <item href="#ref-80" />
+      <item href="#ref-81" />
+      <item href="#ref-82" />
+      <item href="#ref-83" />
+      <item href="#ref-84" />
+      <item href="#ref-85" />
+    </SOAP-ENC:Array>
+    <a4:ArrayList id="ref-42" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+      <_items href="#ref-86" />
+      <_size>2</_size>
+      <_version>2</_version>
+    </a4:ArrayList>
+    <SOAP-ENC:Array id="ref-43" SOAP-ENC:arrayType="a5:ProtocolModelRampRate[2]" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item href="#ref-87" />
+      <item href="#ref-88" />
+    </SOAP-ENC:Array>
+    <a1:Quencher id="ref-44" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <bEmissionType>false</bEmissionType>
+      <dEmissionWaveLength>400</dEmissionWaveLength>
+      <dExcitationWaveLength>400</dExcitationWaveLength>
+      <bCanBeUsedAsPassiveReference>false</bCanBeUsedAsPassiveReference>
+      <dPassiveReferenceDefaultExposureTime>0</dPassiveReferenceDefaultExposureTime>
+      <dTargetInitialUpperIntensity>0</dTargetInitialUpperIntensity>
+      <dTargetInitialDesiredIntensity>0</dTargetInitialDesiredIntensity>
+      <dTargetInitialLowerIntensity>0</dTargetInitialLowerIntensity>
+      <dEmissionFilterWaveLength>-1</dEmissionFilterWaveLength>
+      <dEmissionFilterWaveBandwidth>-1</dEmissionFilterWaveBandwidth>
+      <dExcitationFilterWaveLength>-1</dExcitationFilterWaveLength>
+      <dExcitationFilterWaveBandwidth>-1</dExcitationFilterWaveBandwidth>
+      <d60To20ExposureRatio>1</d60To20ExposureRatio>
+      <Name id="ref-89">Other</Name>
+      <ReferenceID href="#ref-17" />
+      <Barcode href="#ref-17" />
+      <Description id="ref-90">Non-Emit Type</Description>
+    </a1:Quencher>
+    <a1:Dye id="ref-45" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <dEmissionWaveLength>520</dEmissionWaveLength>
+      <dExcitationWaveLength>492</dExcitationWaveLength>
+      <bCanBeUsedAsPassiveReference>false</bCanBeUsedAsPassiveReference>
+      <dPassiveReferenceDefaultExposureTime>0.3</dPassiveReferenceDefaultExposureTime>
+      <dTargetInitialUpperIntensity>60</dTargetInitialUpperIntensity>
+      <dTargetInitialDesiredIntensity>35</dTargetInitialDesiredIntensity>
+      <dTargetInitialLowerIntensity>20</dTargetInitialLowerIntensity>
+      <dEmissionFilterWaveLength>525</dEmissionFilterWaveLength>
+      <dEmissionFilterWaveBandwidth>25</dEmissionFilterWaveBandwidth>
+      <dExcitationFilterWaveLength>485</dExcitationFilterWaveLength>
+      <dExcitationFilterWaveBandwidth>20</dExcitationFilterWaveBandwidth>
+      <d60To20ExposureRatio>1</d60To20ExposureRatio>
+      <Name id="ref-91">FAM</Name>
+      <ReferenceID href="#ref-17" />
+      <Barcode href="#ref-17" />
+      <Description href="#ref-17" />
+    </a1:Dye>
+    <SOAP-ENC:Array id="ref-59" SOAP-ENC:arrayType="a1:ChipDefinition+ChamberInfo+BlockInfo[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <BlockXIndex>1</BlockXIndex>
+        <BlockYIndex>1</BlockYIndex>
+        <SampleToChamberMappingMethod>MatrixRow</SampleToChamberMappingMethod>
+        <SampeToChamberMapping href="#ref-92" />
+        <ReagentToChamberMappingMethod>MatrixColumn</ReagentToChamberMappingMethod>
+        <ReagentToChamberMapping href="#ref-93" />
+      </item>
+      <item>
+        <BlockXIndex>2</BlockXIndex>
+        <BlockYIndex>1</BlockYIndex>
+        <SampleToChamberMappingMethod>MatrixRow</SampleToChamberMappingMethod>
+        <SampeToChamberMapping href="#ref-94" />
+        <ReagentToChamberMappingMethod>MatrixColumn</ReagentToChamberMappingMethod>
+        <ReagentToChamberMapping href="#ref-95" />
+      </item>
+    </SOAP-ENC:Array>
+    <a2:BMImage id="ref-60" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter id="ref-96">580-25</m_ExcitationFilter>
+      <m_EmissionFilter id="ref-97">645-75</m_EmissionFilter>
+      <m_DoseMeterReading>245530</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.997346878387292</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>35.13433837890625</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:07:16.6971792+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>0</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-98">ROX_313_09232022-030720_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-99" />
+      <ImageBase_x002B_m_FileName href="#ref-98" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-99" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-99" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-61" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter id="ref-100">485-20</m_ExcitationFilter>
+      <m_EmissionFilter id="ref-101">525-25</m_EmissionFilter>
+      <m_DoseMeterReading>221616</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.999671750485955</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>37.010635375976562</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:07:21.2572902+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>0</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-102">FAM_313_09232022-030725_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-103" />
+      <ImageBase_x002B_m_FileName href="#ref-102" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-103" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-103" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-62" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246605</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0017135459809317</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.992439270019531</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:12:26.5651887+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>1</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-104">ROX_313_09232022-031230_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-105" />
+      <ImageBase_x002B_m_FileName href="#ref-104" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-105" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-105" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-63" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221819</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0005874486546282</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.9954719543457</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:12:31.1352961+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>1</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-106">FAM_313_09232022-031235_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-107" />
+      <ImageBase_x002B_m_FileName href="#ref-106" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-107" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-107" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-64" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245780</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99836238247883613</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.994461059570312</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:17:36.4630999+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>2</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-108">ROX_313_09232022-031740_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-109" />
+      <ImageBase_x002B_m_FileName href="#ref-108" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-109" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-109" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-65" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221484</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99907632113489675</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.994461059570312</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:17:41.0032103+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>2</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-110">FAM_313_09232022-031745_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-111" />
+      <ImageBase_x002B_m_FileName href="#ref-110" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-111" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-111" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-66" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246734</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0022375460921684</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.996482849121094</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:22:46.3610223+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>3</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-112">ROX_313_09232022-032250_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-113" />
+      <ImageBase_x002B_m_FileName href="#ref-112" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-113" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-113" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-67" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221909</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.000993423212168</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.996482849121094</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:22:50.9111335+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>3</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-114">FAM_313_09232022-032255_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-115" />
+      <ImageBase_x002B_m_FileName href="#ref-114" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-115" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-115" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-68" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245782</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99837050651156845</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.994461059570312</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:27:56.2388780+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>4</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-116">ROX_313_09232022-032759_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-117" />
+      <ImageBase_x002B_m_FileName href="#ref-116" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-117" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-117" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-69" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221501</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99915300521798756</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.996482849121094</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:28:00.8090096+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>4</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-118">FAM_313_09232022-032805_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-119" />
+      <ImageBase_x002B_m_FileName href="#ref-118" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-119" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-119" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-70" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246719</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0021766158466758</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.991428375244141</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:33:06.1368156+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>5</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-120">ROX_313_09232022-033309_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-121" />
+      <ImageBase_x002B_m_FileName href="#ref-120" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-121" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-121" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-71" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221927</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0010746181236758</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.996482849121094</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:33:10.6869265+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>5</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-122">FAM_313_09232022-033315_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-123" />
+      <ImageBase_x002B_m_FileName href="#ref-122" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-123" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-123" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-72" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245759</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99827708013514638</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.993450164794922</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:38:16.0145957+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>6</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-124">ROX_313_09232022-033819_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-125" />
+      <ImageBase_x002B_m_FileName href="#ref-124" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-125" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-125" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-73" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221499</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.9991439835611533</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.9954719543457</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:38:20.5847103+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>6</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-126">FAM_313_09232022-033824_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-127" />
+      <ImageBase_x002B_m_FileName href="#ref-126" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-127" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-127" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-74" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246682</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0020263212411273</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>37.000526428222656</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:43:25.9124911+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>7</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-128">ROX_313_09232022-034329_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-129" />
+      <ImageBase_x002B_m_FileName href="#ref-128" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-129" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-129" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-75" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221914</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0010159773542535</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.998504638671875</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:43:30.4726024+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>7</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-130">FAM_313_09232022-034334_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-131" />
+      <ImageBase_x002B_m_FileName href="#ref-130" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-131" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-131" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-76" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245777</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99835019642973755</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.9954719543457</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:48:35.7806299+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>8</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-132">ROX_313_09232022-034839_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-133" />
+      <ImageBase_x002B_m_FileName href="#ref-132" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-133" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-133" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-77" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221476</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99904023450755985</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.9954719543457</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:48:40.3607440+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>8</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-134">FAM_313_09232022-034844_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-135" />
+      <ImageBase_x002B_m_FileName href="#ref-134" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-135" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-135" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-78" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246710</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0021400576993802</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.989410400390625</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:53:45.6782504+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>9</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-136">ROX_313_09232022-035349_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-137" />
+      <ImageBase_x002B_m_FileName href="#ref-136" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-137" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-137" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-79" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221911</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.001002444869002</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.996482849121094</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:53:50.2283398+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>9</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-138">FAM_313_09232022-035354_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-139" />
+      <ImageBase_x002B_m_FileName href="#ref-138" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-139" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-139" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-80" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245763</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99829332820061112</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.994461059570312</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:58:55.5760577+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>10</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-140">ROX_313_09232022-035859_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-141" />
+      <ImageBase_x002B_m_FileName href="#ref-140" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-141" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-141" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-81" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221477</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.999044745335977</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.993450164794922</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T03:59:00.1261490+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>10</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-142">FAM_313_09232022-035904_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-143" />
+      <ImageBase_x002B_m_FileName href="#ref-142" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-143" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-143" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-82" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>246714</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0021563057648448</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.999515533447266</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T04:04:05.4537582+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>11</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-144">ROX_313_09232022-040409_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-145" />
+      <ImageBase_x002B_m_FileName href="#ref-144" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-145" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-145" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-83" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221918</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>1.0010340206679218</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.998504638671875</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T04:04:10.0038837+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>11</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-146">FAM_313_09232022-040414_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-147" />
+      <ImageBase_x002B_m_FileName href="#ref-146" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-147" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-147" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-84" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-7" />
+      <m_ExcitationFilter href="#ref-96" />
+      <m_EmissionFilter href="#ref-97" />
+      <m_DoseMeterReading>245826</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99854923523168027</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.9954719543457</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T04:09:15.3415788+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>12</m_DataIndex>
+      <m_ExposureTime>0.746091469896331</m_ExposureTime>
+      <m_FileName id="ref-148">ROX_313_09232022-040919_z21280.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-149" />
+      <ImageBase_x002B_m_FileName href="#ref-148" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21280.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-149" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-149" />
+    </a2:BMImage>
+    <a2:BMImage id="ref-85" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <m_DyeUsed href="#ref-45" />
+      <m_ExcitationFilter href="#ref-100" />
+      <m_EmissionFilter href="#ref-101" />
+      <m_DoseMeterReading>221503</m_DoseMeterReading>
+      <m_NormalizedDoseMeterReading>0.99916202687482181</m_NormalizedDoseMeterReading>
+      <m_TC_Temperature>36.994461059570312</m_TC_Temperature>
+      <m_CapturedTimeStamp>2022-09-23T04:09:19.8917612+08:00</m_CapturedTimeStamp>
+      <m_ProtocolSegmentIndex>0</m_ProtocolSegmentIndex>
+      <m_ProtocolSegmentRepeatIndex>0</m_ProtocolSegmentRepeatIndex>
+      <m_ProtocolSliceIndex>0</m_ProtocolSliceIndex>
+      <m_DataIndex>12</m_DataIndex>
+      <m_ExposureTime>1.45273803976838</m_ExposureTime>
+      <m_FileName id="ref-150">FAM_313_09232022-040924_z21404.375.tif</m_FileName>
+      <m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </m_PixelResolution>
+      <m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </m_ActiveArea>
+      <m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </m_size>
+      <m_ColorFormat>Format16bppGrayScale</m_ColorFormat>
+      <m_BitsPerColorPlane>16</m_BitsPerColorPlane>
+      <m_ElementSizeInbytes>2</m_ElementSizeInbytes>
+      <m_ImageRotationRelatedToChipDefinition>270</m_ImageRotationRelatedToChipDefinition>
+      <m_NumberOfXAmplifier>0</m_NumberOfXAmplifier>
+      <m_NumberOfYAmplifier>0</m_NumberOfYAmplifier>
+      <m_AmplifierParamsArray href="#ref-151" />
+      <ImageBase_x002B_m_FileName href="#ref-150" />
+      <ImageBase_x002B_m_PixelData xsi:type="xsd:anyType" xsi:null="1" />
+      <ImageBase_x002B_m_Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>21404.375</Z>
+      </ImageBase_x002B_m_Position>
+      <ImageBase_x002B_m_bIsGainBiasCorrected>false</ImageBase_x002B_m_bIsGainBiasCorrected>
+      <ImageBase_x002B_m_ImageType>Data</ImageBase_x002B_m_ImageType>
+      <ImageBase_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageBase_x002B_m_PixelResolution>
+      <ImageBase_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_ActiveArea>
+      <ImageBase_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageBase_x002B_m_size>
+      <ImageBase_x002B_m_ColorFormat>Format16bppGrayScale</ImageBase_x002B_m_ColorFormat>
+      <ImageBase_x002B_m_BitsPerColorPlane>16</ImageBase_x002B_m_BitsPerColorPlane>
+      <ImageBase_x002B_m_ElementSizeInbytes>2</ImageBase_x002B_m_ElementSizeInbytes>
+      <ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageBase_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageBase_x002B_m_AmplifierParamsArray href="#ref-151" />
+      <ImageInfo_x002B_m_PixelResolution>
+        <X>12</X>
+        <Y>12</Y>
+        <Unit>um</Unit>
+      </ImageInfo_x002B_m_PixelResolution>
+      <ImageInfo_x002B_m_ActiveArea>
+        <x>0</x>
+        <y>0</y>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_ActiveArea>
+      <ImageInfo_x002B_m_size>
+        <width>2560</width>
+        <height>2560</height>
+      </ImageInfo_x002B_m_size>
+      <ImageInfo_x002B_m_ColorFormat>Format16bppGrayScale</ImageInfo_x002B_m_ColorFormat>
+      <ImageInfo_x002B_m_BitsPerColorPlane>16</ImageInfo_x002B_m_BitsPerColorPlane>
+      <ImageInfo_x002B_m_ElementSizeInbytes>2</ImageInfo_x002B_m_ElementSizeInbytes>
+      <ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>270</ImageInfo_x002B_m_ImageRotationRelatedToChipDefinition>
+      <ImageInfo_x002B_m_AmplifierParamsArray href="#ref-151" />
+    </a2:BMImage>
+    <SOAP-ENC:Array id="ref-86" SOAP-ENC:arrayType="xsd:anyType[4]">
+      <item href="#ref-152" />
+      <item href="#ref-153" />
+    </SOAP-ENC:Array>
+    <a5:ProtocolModelRampRate id="ref-87" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-154">RampRate1</strName>
+      <nRampRate>1</nRampRate>
+      <dSlope>0.3</dSlope>
+    </a5:ProtocolModelRampRate>
+    <a5:ProtocolModelRampRate id="ref-88" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-155">RampRate2</strName>
+      <nRampRate>10</nRampRate>
+      <dSlope>2.5</dSlope>
+    </a5:ProtocolModelRampRate>
+    <SOAP-ENC:Array id="ref-92" SOAP-ENC:arrayType="xsd:int[96]">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>6</item>
+      <item>5</item>
+      <item>4</item>
+      <item>13</item>
+      <item>14</item>
+      <item>15</item>
+      <item>18</item>
+      <item>17</item>
+      <item>16</item>
+      <item>25</item>
+      <item>26</item>
+      <item>27</item>
+      <item>30</item>
+      <item>29</item>
+      <item>28</item>
+      <item>37</item>
+      <item>38</item>
+      <item>39</item>
+      <item>42</item>
+      <item>41</item>
+      <item>40</item>
+      <item>49</item>
+      <item>50</item>
+      <item>51</item>
+      <item>54</item>
+      <item>53</item>
+      <item>52</item>
+      <item>61</item>
+      <item>62</item>
+      <item>63</item>
+      <item>66</item>
+      <item>65</item>
+      <item>64</item>
+      <item>73</item>
+      <item>74</item>
+      <item>75</item>
+      <item>78</item>
+      <item>77</item>
+      <item>76</item>
+      <item>85</item>
+      <item>86</item>
+      <item>87</item>
+      <item>90</item>
+      <item>89</item>
+      <item>88</item>
+      <item>100</item>
+      <item>101</item>
+      <item>102</item>
+      <item>99</item>
+      <item>98</item>
+      <item>97</item>
+      <item>112</item>
+      <item>113</item>
+      <item>114</item>
+      <item>111</item>
+      <item>110</item>
+      <item>109</item>
+      <item>124</item>
+      <item>125</item>
+      <item>126</item>
+      <item>123</item>
+      <item>122</item>
+      <item>121</item>
+      <item>136</item>
+      <item>137</item>
+      <item>138</item>
+      <item>135</item>
+      <item>134</item>
+      <item>133</item>
+      <item>148</item>
+      <item>149</item>
+      <item>150</item>
+      <item>147</item>
+      <item>146</item>
+      <item>145</item>
+      <item>160</item>
+      <item>161</item>
+      <item>162</item>
+      <item>159</item>
+      <item>158</item>
+      <item>157</item>
+      <item>172</item>
+      <item>173</item>
+      <item>174</item>
+      <item>171</item>
+      <item>170</item>
+      <item>169</item>
+      <item>184</item>
+      <item>185</item>
+      <item>186</item>
+      <item>183</item>
+      <item>182</item>
+      <item>181</item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-93" SOAP-ENC:arrayType="xsd:int[24]">
+      <item>13</item>
+      <item>12</item>
+      <item>15</item>
+      <item>10</item>
+      <item>16</item>
+      <item>9</item>
+      <item>18</item>
+      <item>7</item>
+      <item>19</item>
+      <item>6</item>
+      <item>21</item>
+      <item>4</item>
+      <item>22</item>
+      <item>3</item>
+      <item>24</item>
+      <item>1</item>
+      <item>14</item>
+      <item>11</item>
+      <item>17</item>
+      <item>8</item>
+      <item>20</item>
+      <item>5</item>
+      <item>23</item>
+      <item>2</item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-94" SOAP-ENC:arrayType="xsd:int[96]">
+      <item>12</item>
+      <item>11</item>
+      <item>10</item>
+      <item>7</item>
+      <item>8</item>
+      <item>9</item>
+      <item>24</item>
+      <item>23</item>
+      <item>22</item>
+      <item>19</item>
+      <item>20</item>
+      <item>21</item>
+      <item>36</item>
+      <item>35</item>
+      <item>34</item>
+      <item>31</item>
+      <item>32</item>
+      <item>33</item>
+      <item>48</item>
+      <item>47</item>
+      <item>46</item>
+      <item>43</item>
+      <item>44</item>
+      <item>45</item>
+      <item>60</item>
+      <item>59</item>
+      <item>58</item>
+      <item>55</item>
+      <item>56</item>
+      <item>57</item>
+      <item>72</item>
+      <item>71</item>
+      <item>70</item>
+      <item>67</item>
+      <item>68</item>
+      <item>69</item>
+      <item>84</item>
+      <item>83</item>
+      <item>82</item>
+      <item>79</item>
+      <item>80</item>
+      <item>81</item>
+      <item>96</item>
+      <item>95</item>
+      <item>94</item>
+      <item>91</item>
+      <item>92</item>
+      <item>93</item>
+      <item>105</item>
+      <item>104</item>
+      <item>103</item>
+      <item>106</item>
+      <item>107</item>
+      <item>108</item>
+      <item>117</item>
+      <item>116</item>
+      <item>115</item>
+      <item>118</item>
+      <item>119</item>
+      <item>120</item>
+      <item>129</item>
+      <item>128</item>
+      <item>127</item>
+      <item>130</item>
+      <item>131</item>
+      <item>132</item>
+      <item>141</item>
+      <item>140</item>
+      <item>139</item>
+      <item>142</item>
+      <item>143</item>
+      <item>144</item>
+      <item>153</item>
+      <item>152</item>
+      <item>151</item>
+      <item>154</item>
+      <item>155</item>
+      <item>156</item>
+      <item>165</item>
+      <item>164</item>
+      <item>163</item>
+      <item>166</item>
+      <item>167</item>
+      <item>168</item>
+      <item>177</item>
+      <item>176</item>
+      <item>175</item>
+      <item>178</item>
+      <item>179</item>
+      <item>180</item>
+      <item>189</item>
+      <item>188</item>
+      <item>187</item>
+      <item>190</item>
+      <item>191</item>
+      <item>192</item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-95" SOAP-ENC:arrayType="xsd:int[24]">
+      <item>13</item>
+      <item>12</item>
+      <item>15</item>
+      <item>10</item>
+      <item>16</item>
+      <item>9</item>
+      <item>18</item>
+      <item>7</item>
+      <item>19</item>
+      <item>6</item>
+      <item>21</item>
+      <item>4</item>
+      <item>22</item>
+      <item>3</item>
+      <item>24</item>
+      <item>1</item>
+      <item>14</item>
+      <item>11</item>
+      <item>17</item>
+      <item>8</item>
+      <item>20</item>
+      <item>5</item>
+      <item>23</item>
+      <item>2</item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-99" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-103" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-105" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-107" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-109" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-111" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-113" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-115" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-117" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-119" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-121" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-123" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-125" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-127" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-129" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-131" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-133" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-135" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-137" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-139" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-141" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-143" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-145" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-147" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-149" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-151" SOAP-ENC:arrayType="a2:_AmplifierParams[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Images/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <item>
+        <iAmplifierXIndex>0</iAmplifierXIndex>
+        <iAmplifierYIndex>0</iAmplifierYIndex>
+        <dOffset>250</dOffset>
+        <dGain>0.996</dGain>
+      </item>
+    </SOAP-ENC:Array>
+    <a5:ProtocolSegmentTemplate id="ref-152" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-156">First image</strName>
+      <nRepeat>1</nRepeat>
+      <nMinRepeats>1</nMinRepeats>
+      <nMaxRepeats>100</nMaxRepeats>
+      <bPCRCycle>true</bPCRCycle>
+      <segmentType>PCR</segmentType>
+      <protocolRampRateType id="ref-157">Normal 2C/s</protocolRampRateType>
+      <arSlices href="#ref-158" />
+    </a5:ProtocolSegmentTemplate>
+    <a5:ProtocolSegmentTemplate id="ref-153" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-159">first hour</strName>
+      <nRepeat>12</nRepeat>
+      <nMinRepeats>1</nMinRepeats>
+      <nMaxRepeats>100</nMaxRepeats>
+      <bPCRCycle>true</bPCRCycle>
+      <segmentType>PCR</segmentType>
+      <protocolRampRateType id="ref-160">Normal 2C/s</protocolRampRateType>
+      <arSlices href="#ref-161" />
+    </a5:ProtocolSegmentTemplate>
+    <a4:ArrayList id="ref-158" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+      <_items href="#ref-162" />
+      <_size>1</_size>
+      <_version>1</_version>
+    </a4:ArrayList>
+    <a4:ArrayList id="ref-161" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+      <_items href="#ref-163" />
+      <_size>1</_size>
+      <_version>1</_version>
+    </a4:ArrayList>
+    <SOAP-ENC:Array id="ref-162" SOAP-ENC:arrayType="xsd:anyType[4]">
+      <item href="#ref-164" />
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-163" SOAP-ENC:arrayType="xsd:anyType[4]">
+      <item href="#ref-165" />
+    </SOAP-ENC:Array>
+    <a5:ProtocolSliceTemplate id="ref-164" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-166">first image</strName>
+      <strCompensationID xsi:null="1" />
+      <dTemperature>37</dTemperature>
+      <bWaitToReachTemp>false</bWaitToReachTemp>
+      <dUpperTemp>99</dUpperTemp>
+      <dLowerTemp>85</dLowerTemp>
+      <nDuration>5</nDuration>
+      <nUpperDuration>60</nUpperDuration>
+      <nLowerDuration>5</nLowerDuration>
+      <nRampRate>10</nRampRate>
+      <bCaptureImage>true</bCaptureImage>
+      <nPCRCycleIndex>-1</nPCRCycleIndex>
+      <typeCaptureImage>EndOfSlice</typeCaptureImage>
+      <eImageCaptureMode>EXPERT_TIME</eImageCaptureMode>
+      <dTemperatureIncrement>1</dTemperatureIncrement>
+      <dUpperTemperatureIncrement>5</dUpperTemperatureIncrement>
+      <dLowerTemperatureIncrement>0.5</dLowerTemperatureIncrement>
+      <tempIncrementEndSlice xsi:null="1" />
+      <protocolRampRateType id="ref-167">Normal 2C/s</protocolRampRateType>
+    </a5:ProtocolSliceTemplate>
+    <a5:ProtocolSliceTemplate id="ref-165" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Fluidigm.BioMark.DataModel.Protocol.Templates/DataModel%2C%20Version%3D1.1.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <strName id="ref-168">5min</strName>
+      <strCompensationID xsi:null="1" />
+      <dTemperature>37</dTemperature>
+      <bWaitToReachTemp>false</bWaitToReachTemp>
+      <dUpperTemp>99</dUpperTemp>
+      <dLowerTemp>85</dLowerTemp>
+      <nDuration>300</nDuration>
+      <nUpperDuration>60</nUpperDuration>
+      <nLowerDuration>5</nLowerDuration>
+      <nRampRate>10</nRampRate>
+      <bCaptureImage>true</bCaptureImage>
+      <nPCRCycleIndex>-1</nPCRCycleIndex>
+      <typeCaptureImage>EndOfSlice</typeCaptureImage>
+      <eImageCaptureMode>EXPERT_TIME</eImageCaptureMode>
+      <dTemperatureIncrement>1</dTemperatureIncrement>
+      <dUpperTemperatureIncrement>5</dUpperTemperatureIncrement>
+      <dLowerTemperatureIncrement>0.5</dLowerTemperatureIncrement>
+      <tempIncrementEndSlice xsi:null="1" />
+      <protocolRampRateType id="ref-169">Normal 2C/s</protocolRampRateType>
+    </a5:ProtocolSliceTemplate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,941 @@
+[2022-09-23@03:04:47]; BioMark.ProtocolValidation; Protocol was validated; BioMark; 
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure; Thermocycler temperature was successfully set; BioMark; Temperature; 20; Actual temperature; 19.85535
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure; Using two pass with grid finder algorithm type; BioMark; 
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure; Setting Exposure time range ; BioMark; Minimum; 0.05; Maximum; 50
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure; Running first pass auto-exposure; BioMark; 
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis to default focus position; BioMark; 
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis; BioMark; Z position name; FOCUS; Actual position; 21511
+[2022-09-23@03:04:47]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z_STAGE to 21511 um.; BioMark; 
+[2022-09-23@03:04:48]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:04:49]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:04:49]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:04:49]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:04:49]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Initializing camera; BioMark; 
+[2022-09-23@03:04:49]; BioMark.Calibration.AutoFocusExposure.AutoExposure.FingerLakesCameraInitialization; Active area set to {X=248,Y=248,Width=2560,Height=2560}; BioMark; 
+********************************************************
+
+      Finger Lakes camera has the following defective areas
+Rectangle area from (2440,248) to (2440,2808)
+Single pixel (377,2344)
+Single pixel (378,2345)
+Single pixel (1139,2455)
+Single pixel (1140,2455)
+Single pixel (1140,2454)
+Single pixel (910,2277)
+Single pixel (1150,2418)
+Single pixel (1739,1409)
+Single pixel (2518,904)
+Single pixel (448,1614)
+Single pixel (937,1393)
+Single pixel (1272,950)
+Single pixel (2198,858)
+
+
+********************************************************
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure.FingerLakesCameraInitialization; Finger Lakes camera was properly initialized; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Camera was successfully initialized; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Configuring camera; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Camera was properly configured for image capture; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis to focus position 21511; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21511
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z_STAGE to 21511 um.; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Running exposure for 0.3 seconds; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:04:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.3 seconds; BioMark; 
+[2022-09-23@03:04:54]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_ROX_300ms_09232022-030453_z21511.tif; BioMark; Z position; z21511; Exposure; 0.3; Dose meter; 98967
+[2022-09-23@03:04:54]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:04:54]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 0.724464909120073 seconds; BioMark; 
+[2022-09-23@03:04:54]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:04:54]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.724464909120073 seconds; BioMark; 
+[2022-09-23@03:04:57]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_ROX_724ms_09232022-030457_z21511.tif; BioMark; Z position; z21511; Exposure; 0.724464909120073; Dose meter; 239678
+[2022-09-23@03:04:57]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:04:57]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:04:57]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:04:57]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_ROX_815ms_09232022-030501_z21511.tif; BioMark; Z position; z21511; Exposure; 0.815777667548464; Dose meter; 269355
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-exposure complete. Recommended Exposure Time:  0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure; Running first pass coarse auto-focus; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 0; Focus position; 21111; Exposure; 0.815777667548464
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21111
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21111 um.; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:01]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030505_z21111.tif; BioMark; Z position; z21111; Exposure; 0.815777667548464; Dose meter; 269158
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 1; Focus position; 21211; Exposure; 0.815777667548464
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21211
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21211 um.; BioMark; 
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030509_z21211.tif; BioMark; Z position; z21211; Exposure; 0.815777667548464; Dose meter; 269000
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 2; Focus position; 21311; Exposure; 0.815777667548464
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21311
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21311 um.; BioMark; 
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030513_z21311.tif; BioMark; Z position; z21311; Exposure; 0.815777667548464; Dose meter; 268872
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 3; Focus position; 21411; Exposure; 0.815777667548464
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21411
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21411 um.; BioMark; 
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030517_z21411.tif; BioMark; Z position; z21411; Exposure; 0.815777667548464; Dose meter; 268772
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 4; Focus position; 21511; Exposure; 0.815777667548464
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21511
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21511 um.; BioMark; 
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030521_z21511.tif; BioMark; Z position; z21511; Exposure; 0.815777667548464; Dose meter; 268693
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 5; Focus position; 21611; Exposure; 0.815777667548464
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21611
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21611 um.; BioMark; 
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030525_z21611.tif; BioMark; Z position; z21611; Exposure; 0.815777667548464; Dose meter; 268579
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 6; Focus position; 21711; Exposure; 0.815777667548464
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21711
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21711 um.; BioMark; 
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:25]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030529_z21711.tif; BioMark; Z position; z21711; Exposure; 0.815777667548464; Dose meter; 268505
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 7; Focus position; 21811; Exposure; 0.815777667548464
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21811
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21811 um.; BioMark; 
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:29]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030532_z21811.tif; BioMark; Z position; z21811; Exposure; 0.815777667548464; Dose meter; 268424
+[2022-09-23@03:05:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 8; Focus position; 21911; Exposure; 0.815777667548464
+[2022-09-23@03:05:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21911
+[2022-09-23@03:05:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21911 um.; BioMark; 
+[2022-09-23@03:05:33]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:33]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.815777667548464 seconds; BioMark; 
+[2022-09-23@03:05:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_815ms_09232022-030536_z21911.tif; BioMark; Z position; z21911; Exposure; 0.815777667548464; Dose meter; 268349
+[2022-09-23@03:05:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; All focus images successfully captured; BioMark; 
+[2022-09-23@03:05:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto focus algorithm set to two pass with grid finder; BioMark; 
+[2022-09-23@03:05:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Running algorithm; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto focus complete; BioMark; Best coarse focus; 21311; Best coarse focus image index; 2
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure; Running second pass auto-exposure; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis to focus position 21311; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21311
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z_STAGE to 21311 um.; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Running exposure for 0.752554448961318 seconds; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:39]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.752554448961318 seconds; BioMark; 
+[2022-09-23@03:05:43]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_ROX_752ms_09232022-030542_z21311.tif; BioMark; Z position; z21311; Exposure; 0.752554448961318; Dose meter; 247858
+[2022-09-23@03:05:43]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:05:43]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:43]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:43]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_ROX_746ms_09232022-030546_z21311.tif; BioMark; Z position; z21311; Exposure; 0.746091469896331; Dose meter; 245539
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-exposure complete. Recommended Exposure Time:  0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 0; Focus position; 21171; Exposure; 0.746091469896331
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21171
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21171 um.; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:46]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030550_z21171.tif; BioMark; Z position; z21171; Exposure; 0.746091469896331; Dose meter; 245460
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 1; Focus position; 21191; Exposure; 0.746091469896331
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21191
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21191 um.; BioMark; 
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030554_z21191.tif; BioMark; Z position; z21191; Exposure; 0.746091469896331; Dose meter; 245375
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 2; Focus position; 21211; Exposure; 0.746091469896331
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21211
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21211 um.; BioMark; 
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:54]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030558_z21211.tif; BioMark; Z position; z21211; Exposure; 0.746091469896331; Dose meter; 245335
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 3; Focus position; 21231; Exposure; 0.746091469896331
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21231
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21231 um.; BioMark; 
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:05:58]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030602_z21231.tif; BioMark; Z position; z21231; Exposure; 0.746091469896331; Dose meter; 245279
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 4; Focus position; 21251; Exposure; 0.746091469896331
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21251
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21251 um.; BioMark; 
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:02]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030605_z21251.tif; BioMark; Z position; z21251; Exposure; 0.746091469896331; Dose meter; 245209
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 5; Focus position; 21271; Exposure; 0.746091469896331
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21271
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21271 um.; BioMark; 
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:05]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030609_z21271.tif; BioMark; Z position; z21271; Exposure; 0.746091469896331; Dose meter; 245167
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 6; Focus position; 21291; Exposure; 0.746091469896331
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21291
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21291 um.; BioMark; 
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:09]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030613_z21291.tif; BioMark; Z position; z21291; Exposure; 0.746091469896331; Dose meter; 245109
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 7; Focus position; 21311; Exposure; 0.746091469896331
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21311
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21311 um.; BioMark; 
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:13]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030617_z21311.tif; BioMark; Z position; z21311; Exposure; 0.746091469896331; Dose meter; 245079
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 8; Focus position; 21331; Exposure; 0.746091469896331
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21331
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21331 um.; BioMark; 
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:17]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030621_z21331.tif; BioMark; Z position; z21331; Exposure; 0.746091469896331; Dose meter; 245030
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 9; Focus position; 21351; Exposure; 0.746091469896331
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21351
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21351 um.; BioMark; 
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:21]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030624_z21351.tif; BioMark; Z position; z21351; Exposure; 0.746091469896331; Dose meter; 245002
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 10; Focus position; 21371; Exposure; 0.746091469896331
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21371
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21371 um.; BioMark; 
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:24]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030628_z21371.tif; BioMark; Z position; z21371; Exposure; 0.746091469896331; Dose meter; 244951
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 11; Focus position; 21391; Exposure; 0.746091469896331
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21391
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21391 um.; BioMark; 
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:28]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030632_z21391.tif; BioMark; Z position; z21391; Exposure; 0.746091469896331; Dose meter; 244905
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 12; Focus position; 21411; Exposure; 0.746091469896331
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21411
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21411 um.; BioMark; 
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:32]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030636_z21411.tif; BioMark; Z position; z21411; Exposure; 0.746091469896331; Dose meter; 244873
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 13; Focus position; 21431; Exposure; 0.746091469896331
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21431
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21431 um.; BioMark; 
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:36]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030640_z21431.tif; BioMark; Z position; z21431; Exposure; 0.746091469896331; Dose meter; 244831
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 14; Focus position; 21451; Exposure; 0.746091469896331
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21451
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21451 um.; BioMark; 
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:40]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030643_z21451.tif; BioMark; Z position; z21451; Exposure; 0.746091469896331; Dose meter; 244813
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Capturing focus image; BioMark; Index; 15; Focus position; 21471; Exposure; 0.746091469896331
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21471
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Moving Z_STAGE to 21471 um.; BioMark; 
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:43]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:06:47]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Focus_ROX_746ms_09232022-030647_z21471.tif; BioMark; Z position; z21471; Exposure; 0.746091469896331; Dose meter; 244777
+[2022-09-23@03:06:47]; BioMark.Calibration.AutoFocusExposure.AutoFocus; All focus images successfully captured; BioMark; 
+[2022-09-23@03:06:47]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto focus algorithm set to two pass with grid finder; BioMark; 
+[2022-09-23@03:06:47]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Running algorithm; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure.AutoFocus; Auto focus complete; BioMark; Best fine focus; 21291; Best fine focus image index; 6
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Reference dye auto-focus and auto-exposure completed; BioMark; Reference exposure; 0.746091469896331; Reference focus; 21291
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Moving Z axis to best fine focus position; BioMark; Focus position; 21291
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21291
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Moving Z_STAGE to 21291 um.; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Running auto-exposure for probe SNPtype-FAM; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure; Using probe initial exposure settings; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:06:50]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis to focus position 21415; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21415
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Moving Z_STAGE to 21415 um.; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Running exposure for 2 seconds; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:51]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 2 seconds; BioMark; 
+[2022-09-23@03:06:56]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_FAM_2000ms_09232022-030656_z21415.tif; BioMark; Z position; z21415; Exposure; 2; Dose meter; 305045
+[2022-09-23@03:06:56]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:06:56]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:06:56]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:06:56]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-focus image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Cals\Exposure_FAM_1452ms_09232022-030701_z21415.tif; BioMark; Z position; z21415; Exposure; 1.45273803976838; Dose meter; 221693
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Image captured, running algorithm; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; New exposure time: 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure.AutoExposure; Auto-exposure complete. Recommended Exposure Time:  1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure; Auto-exposure for probe SNPtype-FAM completed; BioMark; Exposure; 1.45273803976838
+[2022-09-23@03:07:01]; BioMark.Calibration.AutoFocusExposure; Auto focus-exposure successfully completed; BioMark; Best fine focus position; 21291; Reference dye exposure; 0.74609146989633100; SNPtype-FAM exposure; 1.4527380397683800
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:07:01]; BioMark.Calibration.CaptureTime.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Image was not saved because save was disabled; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:07:05]; BioMark.Calibration.CaptureTime.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:07:06]; BioMark.Calibration.CaptureTime.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:07:06]; BioMark.Calibration.CaptureTime.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:07:06]; BioMark.Calibration.CaptureTime.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:07:06]; BioMark.Calibration.CaptureTime.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:07:06]; BioMark.Calibration.CaptureTime.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime.InternalCapture; Image was not saved because save was disabled; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime; Capture successfully completed; BioMark; 
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime; Image capture time calibration successfully completed; BioMark; Capture time First; 9.671
+[2022-09-23@03:07:10]; BioMark.Calibration.CaptureTime; Image capture time calibration successfully completed; BioMark; Capture time Remaining; 9.671
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Use Defined PCR Protocol; BioMark; 
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Temperature compensated protocol model was properly built; BioMark; 
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 645; Excitation wavelength; 580; Focus position; 21280.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Image focus position calculated; BioMark; Emission wavelength; 525; Excitation wavelength; 485; Focus position; 21404.375
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; BioMark Instruction were successfully generated from the compensated protocol model; BioMark; Estimated Time in minutes; 62.0333333333333; Number of instructions; 39
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Creating chip run object; BioMark; 
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Adding camera configuration information to chip run object; BioMark; 
+[2022-09-23@03:07:10]; BioMark.ProtocolParsing; Protocol was successfully parsed and chip run object fully created; BioMark; 
+[2022-09-23@03:07:10]; BioMark; Next instruction loaded; BioMark; Description; first image @ 37 °C for 5 s; Progress; 0
+[2022-09-23@03:07:10]; BioMark.0.0.0; Analyzer chip path set to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\ChipRun.bml; BioMark; 
+[2022-09-23@03:07:10]; BioMark.0.0.0; Analyzer number of shots set to 13; BioMark; 
+[2022-09-23@03:07:10]; BioMark.0.0.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:07:10]; BioMark.0.0.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:07:10]; BioMark.0.0.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:07:10]; BioMark.0.0.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:07:10]; BioMark; Next instruction loaded; BioMark; Description; first image @ 37 °C for 5 s; Progress; 2
+[2022-09-23@03:07:10]; BioMark.0.0.0; Waiting for 5 seconds; BioMark; 
+[2022-09-23@03:07:15]; BioMark; Next instruction loaded; BioMark; Description; first image - Capturing @ 37 °C; Progress; 5
+[2022-09-23@03:07:15]; BioMark.0.0.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:07:15]; BioMark.0.0.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:07:16]; BioMark.0.0.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-030720_z21280.375.tif; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245530
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:07:20]; BioMark.0.0.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:07:21]; BioMark.0.0.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:07:21]; BioMark.0.0.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:07:21]; BioMark.0.0.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:07:21]; BioMark.0.0.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:07:21]; BioMark.0.0.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-030725_z21404.375.tif; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221616
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input 24V = 24.0720110453747 V; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input 12V = 12.2087337975421 V; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input 5V = 4.98771431484928 V; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input Vacuum = 91.548587338689497358 kPa; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input LTBTemperature = 26.0363539535211 °C; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input BOBTemperature = 24.2414327426731 °C; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.0.0.Capture; Monitored input CameraEnvTemperature = 26.6521299131687 °C; BioMark; 
+[2022-09-23@03:07:25]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 7
+[2022-09-23@03:07:25]; BioMark.0.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:07:25]; BioMark.0.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:07:25]; BioMark.0.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:07:25]; BioMark.0.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:07:25]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 10
+[2022-09-23@03:07:25]; BioMark.0.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:07:32]; BioMark.0.1.0; Shot # 0 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:12:25]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 12
+[2022-09-23@03:12:25]; BioMark.0.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:12:25]; BioMark.0.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:12:25]; BioMark.0.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:12:25]; BioMark.0.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:12:26]; BioMark.0.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:12:26]; BioMark.0.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:12:26]; BioMark.0.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:12:26]; BioMark.0.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:12:26]; BioMark.0.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-031230_z21280.375.tif; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246605
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:12:30]; BioMark.0.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:12:31]; BioMark.0.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:12:31]; BioMark.0.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:12:31]; BioMark.0.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:12:31]; BioMark.0.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:12:31]; BioMark.0.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-031235_z21404.375.tif; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221819
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input 24V = 24.0472831555315 V; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input 12V = 12.1734339700988 V; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input 5V = 4.98868721005318 V; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input Vacuum = 92.348379184697027234 kPa; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input LTBTemperature = 26.1739209200856 °C; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input BOBTemperature = 24.2938391971768 °C; BioMark; 
+[2022-09-23@03:12:35]; BioMark.0.1.0.Capture; Monitored input CameraEnvTemperature = 26.7209134002837 °C; BioMark; 
+[2022-09-23@03:12:35]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 15
+[2022-09-23@03:12:35]; BioMark.1.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:12:35]; BioMark.1.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:12:35]; BioMark.1.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:12:35]; BioMark.1.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:12:35]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 17
+[2022-09-23@03:12:35]; BioMark.1.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:12:42]; BioMark.1.1.0; Shot # 1 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:17:35]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 20
+[2022-09-23@03:17:35]; BioMark.1.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:17:35]; BioMark.1.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:17:35]; BioMark.1.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:17:35]; BioMark.1.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:17:36]; BioMark.1.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:17:36]; BioMark.1.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:17:36]; BioMark.1.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:17:36]; BioMark.1.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:17:36]; BioMark.1.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-031740_z21280.375.tif; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245780
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:17:40]; BioMark.1.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:17:41]; BioMark.1.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:17:41]; BioMark.1.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-031745_z21404.375.tif; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221484
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input 24V = 24.066076351771 V; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input 12V = 12.2087337975421 V; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input 5V = 4.98803861325042 V; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input Vacuum = 92.548327146198909703 kPa; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input LTBTemperature = 26.2230519800097 °C; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input BOBTemperature = 24.2676359698938 °C; BioMark; 
+[2022-09-23@03:17:45]; BioMark.1.1.0.Capture; Monitored input CameraEnvTemperature = 26.730739612766 °C; BioMark; 
+[2022-09-23@03:17:45]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 23
+[2022-09-23@03:17:45]; BioMark.2.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:17:45]; BioMark.2.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:17:45]; BioMark.2.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:17:45]; BioMark.2.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:17:45]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 25
+[2022-09-23@03:17:45]; BioMark.2.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:17:52]; BioMark.2.1.0; Shot # 2 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:22:45]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 28
+[2022-09-23@03:22:45]; BioMark.2.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:22:45]; BioMark.2.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:22:45]; BioMark.2.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:22:45]; BioMark.2.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:22:46]; BioMark.2.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:22:46]; BioMark.2.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:22:46]; BioMark.2.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:22:46]; BioMark.2.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:22:46]; BioMark.2.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-032250_z21280.375.tif; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246734
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:22:50]; BioMark.2.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-032255_z21404.375.tif; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221909
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input 24V = 24.0937715888121 V; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input 12V = 12.2097423640481 V; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input 5V = 4.98739001644831 V; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input Vacuum = 92.486274330560394454 kPa; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input LTBTemperature = 26.2721830401641 °C; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input BOBTemperature = 24.290563793763 °C; BioMark; 
+[2022-09-23@03:22:55]; BioMark.2.1.0.Capture; Monitored input CameraEnvTemperature = 26.7241888044434 °C; BioMark; 
+[2022-09-23@03:22:55]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 30
+[2022-09-23@03:22:55]; BioMark.3.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:22:55]; BioMark.3.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:22:55]; BioMark.3.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:22:55]; BioMark.3.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:22:55]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 33
+[2022-09-23@03:22:55]; BioMark.3.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:23:02]; BioMark.3.1.0; Shot # 3 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:27:55]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 35
+[2022-09-23@03:27:55]; BioMark.3.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:27:55]; BioMark.3.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:27:55]; BioMark.3.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:27:55]; BioMark.3.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:27:56]; BioMark.3.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:27:56]; BioMark.3.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:27:56]; BioMark.3.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:27:56]; BioMark.3.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:27:56]; BioMark.3.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:27:59]; BioMark.3.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:27:59]; BioMark.3.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-032759_z21280.375.tif; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245782
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:28:00]; BioMark.3.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-032805_z21404.375.tif; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221501
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input 24V = 24.090804241959 V; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input 12V = 12.1835196350299 V; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input 5V = 4.98641712124638 V; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input Vacuum = 92.348379184697027234 kPa; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input LTBTemperature = 26.2885600602669 °C; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input BOBTemperature = 24.2938391971768 °C; BioMark; 
+[2022-09-23@03:28:05]; BioMark.3.1.0.Capture; Monitored input CameraEnvTemperature = 26.763493654441 °C; BioMark; 
+[2022-09-23@03:28:05]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 38
+[2022-09-23@03:28:05]; BioMark.4.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:28:05]; BioMark.4.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:28:05]; BioMark.4.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:28:05]; BioMark.4.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:28:05]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 41
+[2022-09-23@03:28:05]; BioMark.4.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:28:11]; BioMark.4.1.0; Shot # 4 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:33:05]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 43
+[2022-09-23@03:33:05]; BioMark.4.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:33:05]; BioMark.4.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:33:05]; BioMark.4.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:33:05]; BioMark.4.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:33:06]; BioMark.4.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:33:06]; BioMark.4.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:33:06]; BioMark.4.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:33:06]; BioMark.4.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:33:06]; BioMark.4.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-033309_z21280.375.tif; BioMark; 
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246719
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:33:09]; BioMark.4.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:33:10]; BioMark.4.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-033315_z21404.375.tif; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221927
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input 24V = 24.0730001609779 V; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input 12V = 12.1804939355462 V; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input 5V = 4.98803861325042 V; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input Vacuum = 92.486274330560394454 kPa; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input LTBTemperature = 26.3344157166909 °C; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input BOBTemperature = 24.3233178279447 °C; BioMark; 
+[2022-09-23@03:33:15]; BioMark.4.1.0.Capture; Monitored input CameraEnvTemperature = 26.8126247171482 °C; BioMark; 
+[2022-09-23@03:33:15]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 46
+[2022-09-23@03:33:15]; BioMark.5.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:33:15]; BioMark.5.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:33:15]; BioMark.5.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:33:15]; BioMark.5.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:33:15]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 48
+[2022-09-23@03:33:15]; BioMark.5.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:33:21]; BioMark.5.1.0; Shot # 5 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:38:15]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 51
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:38:15]; BioMark.5.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:38:16]; BioMark.5.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:38:16]; BioMark.5.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-033819_z21280.375.tif; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245759
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:38:19]; BioMark.5.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:38:20]; BioMark.5.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:38:20]; BioMark.5.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:38:20]; BioMark.5.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:38:20]; BioMark.5.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:38:20]; BioMark.5.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:38:24]; BioMark.5.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:38:24]; BioMark.5.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-033824_z21404.375.tif; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221499
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input 24V = 24.0828913170495 V; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input 12V = 12.2117594970613 V; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input 5V = 4.98868721005318 V; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input Vacuum = 92.458695301387721010 kPa; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input LTBTemperature = 26.3540681409343 °C; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input BOBTemperature = 24.3396948450721 °C; BioMark; 
+[2022-09-23@03:38:25]; BioMark.5.1.0.Capture; Monitored input CameraEnvTemperature = 26.8060739087737 °C; BioMark; 
+[2022-09-23@03:38:25]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 53
+[2022-09-23@03:38:25]; BioMark.6.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:38:25]; BioMark.6.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:38:25]; BioMark.6.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:38:25]; BioMark.6.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:38:25]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 56
+[2022-09-23@03:38:25]; BioMark.6.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:38:31]; BioMark.6.1.0; Shot # 6 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:43:25]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 58
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:43:25]; BioMark.6.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-034329_z21280.375.tif; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246682
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:43:29]; BioMark.6.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:43:30]; BioMark.6.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:43:30]; BioMark.6.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:43:30]; BioMark.6.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:43:30]; BioMark.6.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:43:30]; BioMark.6.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-034334_z21404.375.tif; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221914
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input 24V = 24.0927824731937 V; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input 12V = 12.2107509305545 V; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input 5V = 4.98803861325042 V; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input Vacuum = 92.713801321234950367 kPa; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input LTBTemperature = 26.347517332849 °C; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input BOBTemperature = 24.3462456519298 °C; BioMark; 
+[2022-09-23@03:43:34]; BioMark.6.1.0.Capture; Monitored input CameraEnvTemperature = 26.8584803758858 °C; BioMark; 
+[2022-09-23@03:43:34]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 61
+[2022-09-23@03:43:34]; BioMark.7.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:43:34]; BioMark.7.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:43:34]; BioMark.7.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:43:35]; BioMark.7.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:43:35]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 64
+[2022-09-23@03:43:35]; BioMark.7.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:43:41]; BioMark.7.1.0; Shot # 7 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:48:35]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 66
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:48:35]; BioMark.7.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-034839_z21280.375.tif; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245777
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:48:39]; BioMark.7.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:48:40]; BioMark.7.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:48:40]; BioMark.7.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:48:40]; BioMark.7.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:48:40]; BioMark.7.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:48:40]; BioMark.7.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-034844_z21404.375.tif; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221476
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input 24V = 24.1026736294106 V; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input 12V = 12.2097423640481 V; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input 5V = 4.98674141964686 V; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input Vacuum = 92.775854136873465616 kPa; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input LTBTemperature = 26.3507927368911 °C; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input BOBTemperature = 24.2840129869384 °C; BioMark; 
+[2022-09-23@03:48:44]; BioMark.7.1.0.Capture; Monitored input CameraEnvTemperature = 26.8290017381025 °C; BioMark; 
+[2022-09-23@03:48:44]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 69
+[2022-09-23@03:48:44]; BioMark.8.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:48:44]; BioMark.8.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:48:44]; BioMark.8.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:48:44]; BioMark.8.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:48:44]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 71
+[2022-09-23@03:48:44]; BioMark.8.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:48:51]; BioMark.8.1.0; Shot # 8 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:53:44]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 74
+[2022-09-23@03:53:44]; BioMark.8.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:53:44]; BioMark.8.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:53:45]; BioMark.8.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-035349_z21280.375.tif; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246710
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:53:49]; BioMark.8.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:53:50]; BioMark.8.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:53:50]; BioMark.8.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:53:50]; BioMark.8.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:53:50]; BioMark.8.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:53:50]; BioMark.8.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-035354_z21404.375.tif; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221911
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input 24V = 24.0690436985696 V; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input 12V = 12.2067166645315 V; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input 5V = 4.98836291165171 V; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input Vacuum = 92.348379184697027234 kPa; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input LTBTemperature = 26.3638943530698 °C; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input BOBTemperature = 24.31349161768 °C; BioMark; 
+[2022-09-23@03:53:54]; BioMark.8.1.0.Capture; Monitored input CameraEnvTemperature = 26.8552049716835 °C; BioMark; 
+[2022-09-23@03:53:54]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 76
+[2022-09-23@03:53:54]; BioMark.9.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:53:54]; BioMark.9.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:53:54]; BioMark.9.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:53:54]; BioMark.9.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:53:54]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 79
+[2022-09-23@03:53:54]; BioMark.9.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:54:01]; BioMark.9.1.0; Shot # 9 was successfully processed; BioMark.Analysis; 
+[2022-09-23@03:58:54]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 82
+[2022-09-23@03:58:54]; BioMark.9.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@03:58:54]; BioMark.9.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@03:58:54]; BioMark.9.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:58:54]; BioMark.9.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@03:58:55]; BioMark.9.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@03:58:55]; BioMark.9.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@03:58:55]; BioMark.9.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@03:58:55]; BioMark.9.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:58:55]; BioMark.9.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-035859_z21280.375.tif; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245763
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:58:59]; BioMark.9.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@03:59:00]; BioMark.9.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@03:59:00]; BioMark.9.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@03:59:00]; BioMark.9.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@03:59:00]; BioMark.9.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@03:59:00]; BioMark.9.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-035904_z21404.375.tif; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221477
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input 24V = 24.081902201439 V; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input 12V = 12.2178108961111 V; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input 5V = 4.9870657180475 V; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input Vacuum = 92.431116272215047566 kPa; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input LTBTemperature = 26.3540681409343 °C; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input BOBTemperature = 24.2545343562757 °C; BioMark; 
+[2022-09-23@03:59:04]; BioMark.9.1.0.Capture; Monitored input CameraEnvTemperature = 26.8191755255268 °C; BioMark; 
+[2022-09-23@03:59:04]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 84
+[2022-09-23@03:59:04]; BioMark.10.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@03:59:04]; BioMark.10.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@03:59:04]; BioMark.10.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@03:59:04]; BioMark.10.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@03:59:04]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 87
+[2022-09-23@03:59:04]; BioMark.10.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@03:59:11]; BioMark.10.1.0; Shot # 10 was successfully processed; BioMark.Analysis; 
+[2022-09-23@04:04:04]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 89
+[2022-09-23@04:04:04]; BioMark.10.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@04:04:04]; BioMark.10.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@04:04:04]; BioMark.10.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@04:04:04]; BioMark.10.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@04:04:05]; BioMark.10.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@04:04:05]; BioMark.10.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@04:04:05]; BioMark.10.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@04:04:05]; BioMark.10.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@04:04:05]; BioMark.10.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-040409_z21280.375.tif; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 246714
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@04:04:09]; BioMark.10.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@04:04:10]; BioMark.10.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@04:04:10]; BioMark.10.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-040414_z21404.375.tif; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221918
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input 24V = 24.1046518606627 V; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input 12V = 12.2107509305545 V; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input 5V = 4.9870657180475 V; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input Vacuum = 92.575906175371583147 kPa; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input LTBTemperature = 26.3245895045831 °C; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input BOBTemperature = 24.1759246748936 °C; BioMark; 
+[2022-09-23@04:04:14]; BioMark.10.1.0.Capture; Monitored input CameraEnvTemperature = 26.8060739087737 °C; BioMark; 
+[2022-09-23@04:04:14]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 92
+[2022-09-23@04:04:14]; BioMark.11.1.0.SetRampRate; Setting ramp rate; BioMark; Rate; 10
+[2022-09-23@04:04:14]; BioMark.11.1.0.SetRampRate; Thermocycler ramp rate successfully set to 10; BioMark; 
+[2022-09-23@04:04:14]; BioMark.11.1.0.SetTemperature; Setting temperature; BioMark; Temperature; 37
+[2022-09-23@04:04:14]; BioMark.11.1.0.SetTemperature; Thermocycler temperature was successfully set; BioMark; Temperature; 37; Actual temperature; 36.73953
+[2022-09-23@04:04:14]; BioMark; Next instruction loaded; BioMark; Description; 5min @ 37 °C for 300 s; Progress; 94
+[2022-09-23@04:04:14]; BioMark.11.1.0; Waiting for 300 seconds; BioMark; 
+[2022-09-23@04:04:21]; BioMark.11.1.0; Shot # 11 was successfully processed; BioMark.Analysis; 
+[2022-09-23@04:09:14]; BioMark; Next instruction loaded; BioMark; Description; 5min - Capturing @ 37 °C; Progress; 97
+[2022-09-23@04:09:14]; BioMark.11.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; ROX; Exposure; 0.74609146989633100; Focus; 21280.375; Emission filter; 645-75; Excitation filter; 580-25
+[2022-09-23@04:09:14]; BioMark.11.1.0.Capture.InternalCapture; Moving excitation filter to position 1; BioMark; 
+[2022-09-23@04:09:14]; BioMark.11.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 1; BioMark; 
+[2022-09-23@04:09:14]; BioMark.11.1.0.Capture.InternalCapture; Moving emission filter to position 1; BioMark; 
+[2022-09-23@04:09:15]; BioMark.11.1.0.Capture.InternalCapture; Emission filter successfully moved to position 1; BioMark; 
+[2022-09-23@04:09:15]; BioMark.11.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21280.375
+[2022-09-23@04:09:15]; BioMark.11.1.0.Capture.InternalCapture; Moving Z_STAGE to 21280.375 um.; BioMark; 
+[2022-09-23@04:09:15]; BioMark.11.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@04:09:15]; BioMark.11.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 0.746091469896331 seconds; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\ROX_313_09232022-040919_z21280.375.tif; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 245826
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Capturing dye; BioMark; Dye name; FAM; Exposure; 1.4527380397683800; Focus; 21404.375; Emission filter; 525-25; Excitation filter; 485-20
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Moving excitation filter to position 3; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Excitation filter successfully moved to position 3; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Moving emission filter to position 3; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Emission filter successfully moved to position 3; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Moving Z axis; BioMark; Z position name; USER_DEFINE; Actual position; 21404.375
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Moving Z_STAGE to 21404.375 um.; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Dose meter was successfully armed with Dev1/ctr1,/Dev1/PFI15,/Dev1/PFI9; BioMark; 
+[2022-09-23@04:09:19]; BioMark.11.1.0.Capture.InternalCapture; Excitation shutter was successfully armed with Dev1/ctr0,/Dev1/PFI1,/Dev1/PFI9, exposure = 1.45273803976838 seconds; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture.InternalCapture; Camera was properly armed for capture; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture.InternalCapture; Camera image capture was turned on; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture.InternalCapture; Image was saved to C:\Users\Fluidigm\Desktop\09232022_2\1691383040\Data\FAM_313_09232022-040924_z21404.375.tif; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture.InternalCapture; BMImage record was inserted into the current chip run; BioMark; Dose meter; 221503
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture.InternalCapture; Camera imnage data was successfully transfered as TIFF; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Capture successfully completed; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input CCDTemperature = -5 °C; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input 24V = 24.0472831555315 V; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input 12V = 12.2117594970613 V; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input 5V = 4.9890115084548 V; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input Vacuum = 92.831012195218812504 kPa; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input LTBTemperature = 26.3376911207289 °C; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input BOBTemperature = 24.1693738681371 °C; BioMark; 
+[2022-09-23@04:09:24]; BioMark.11.1.0.Capture; Monitored input CameraEnvTemperature = 26.7765952711401 °C; BioMark; 
+[2022-09-23@04:09:24]; BioMark; No more instructions; BioMark; 
+[2022-09-23@04:09:26]; BioMark.DisengageThermocycler; Vacuum was properly released; BioMark; 
+[2022-09-23@04:09:26]; BioMark.DisengageThermocycler; Moving Z axis; BioMark; Z position name; HOME; Actual position; 2000
+[2022-09-23@04:09:26]; BioMark.DisengageThermocycler; Moving Z_STAGE to 2000 um.; BioMark; 
+[2022-09-23@04:09:30]; BioMark.DisengageThermocycler; Z Axis was properly moved to home position; BioMark; 
+[2022-09-23@04:09:30]; BioMark.DisengageThermocycler; Moving gripper; BioMark; Gripper position name; GRIP; Actual position; 10000
+[2022-09-23@04:09:30]; BioMark.DisengageThermocycler; Moving GRIPPER_CLAMP to 10 um.; BioMark; 
+[2022-09-23@04:09:31]; BioMark.DisengageThermocycler; Shot # 12 was successfully processed; BioMark.Analysis; 
+[2022-09-23@04:09:31]; BioMark.DisengageThermocycler; Analysis results was successfully saved; BioMark.Analysis; 
+[2022-09-23@04:09:32]; BioMark.DisengageThermocycler; Gripper was closed; BioMark; 
+[2022-09-23@04:09:32]; BioMark.DisengageThermocycler; Thermocycler was properly disengaged; BioMark; 

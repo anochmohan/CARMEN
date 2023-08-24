@@ -1,0 +1,4 @@
+Script executed on - Thu Jun  1 09:50:17 EDT 2023
+identified crRNAs:  24
+identified samples:  192
+/home/ubs6/projects/carmen-project/09232022_2/1691383040.csv has been moved to /09232022_2/completed_runs
